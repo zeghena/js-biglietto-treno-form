@@ -14,28 +14,48 @@
     <!-- ## link CSS -->
     <link rel="stylesheet" href="./style/style.css">
 
-
     <!-- ## CDN fontawesome-->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
-
     ">
     <!-- ## link javascript -->
 
     <script src="./script/script.js" defer></script>
 </head>
 
-
 <body>
+    <div class="card1">
+        <h2 class="title">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
 
-    <div class="container" id="col">
-        <h1 class="title">FizzBuzzDom</h1>
+        <div class="container">
+            <div class="dati">
+                <label for="">
+                    <h3>Km</h3>
+                </label>
+                <input type="text" class="form-control" id="user-km">
 
-        <div class="row" id="cards-row">
+            </div>
+            <div class="dati">
+                <label for="">
+                    <h3>Età</h3>
+                </label>
+                <input type="text" class="form-control" id="user-age">
+            </div>
+            <div class="dati">
+                <label for="">
+                    <h3>Prezzo</h3>
+                </label>
+                <input type="text" class="form-control" id="final-price" readonly>
+
+            </div>
 
         </div>
-    </div>
+        <div class="btn">
+            <button type="button" id="calcola">Calcola
 
+            </button>
+        </div>
+    </div>
 </body>
 
 </html>

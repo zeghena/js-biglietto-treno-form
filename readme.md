@@ -1,23 +1,33 @@
-### Esercizio di oggi: FizzBuzz
+### esercizio di oggi:
 
-### nome repo: js-fizzbuzz
+# calcolo del prezzo del biglietto del treno
 
-## - Consegna:
+cartella/repo:
 
-- Scrivi un programma che stampi in console i numeri da 1 a 100,
-  ma che per i multipli di 3 stampi "Fizz" al posto del numero e per i multipli di 5 stampi "Buzz".
-- Per i numeri che sono sia multipli di 3 che di 5 stampi "FizzBuzz".
-- Prima di partire a scrivere codice poniamoci qualche domanda:
-- Come faccio a sapere se un numero è divisibile per un altro?
-- Abbiamo visto qualcosa di particolare che possiamo usare?
+### js-biglietto-treno-form
 
-### Consigli del giorno:
+Descrizione:
+Scrivere un programma che chieda all'utente:
 
-1. Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
-2. Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+- Il numero di chilometri da percorrere
+- Età del passeggero
+  Sulla base di queste informazioni dovrà calcolare il prezzo totale del biglietto di viaggio, secondo le seguenti regole:
+- il prezzo del biglietto è definito in base ai km (0.21 € al km)
+- va applicato uno sconto del 20% per i minorenni
+- va applicato uno sconto del 40% per gli over 65.
 
-- BONUS 1:
-  Crea un container nel DOM , aggiungendo (attraverso le funzioni document.createElement() e append()) un elemento html con il numero o la stringa corretta da mostrare.
-- BONUS 2:
-  Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
-  Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+## MILESTONE 1:
+
+Iniziamo implementando il programma senza alcuna estetica: usando esclusivamente due input e un bottone (non stilizzati), realizziamo le specifiche scritte sopra. La risposta finale (o output) sarà anch'essa da scrivere in console.
+
+
+## MILESTONE 2:
+
+Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l'utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo.
+Il recap dei dati e l'output del prezzo finale (cioè il biglietto) andranno quindi stampati in pagina. Il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo.
+
+### BONUS:
+
+Visualizzare il biglietto solo dopo che l'utente ha cliccato sul bottone.
+Nota:
+Se non vi sentite particolarmente creativi, questa potrebbe essere un'implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
